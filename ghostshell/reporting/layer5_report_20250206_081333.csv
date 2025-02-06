@@ -1,0 +1,3 @@
+Layer,Status,Message
+5,[32mPassed[0m,Session with example.com:80 established. Received 1360 bytes.
+5,[32mPassed[0m,Session with example.net:80 established. Received 1448 bytes.

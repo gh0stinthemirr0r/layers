@@ -1,0 +1,28 @@
+2025-02-06T07:01:39 - INFO - Logger initialized with file: ghostshell\logging\osilayers_log_20250206_070139.log
+2025-02-06T07:01:39 - INFO - Starting Layer 1 (Physical Layer) tests with 3 attempt(s)
+2025-02-06T07:01:39 - INFO - Layer1 tests completed successfully: Physical layer test passed. AttemptCount=3, Min signal=85%
+2025-02-06T07:01:39 - INFO - Starting Layer 3 (Network) tests for hostname 'example.com' and ping IP '8.8.8.8'
+2025-02-06T07:01:42 - INFO - Layer3 test success. Details: Hostname 'example.com' resolved to IP(s):
+  96.7.128.198
+  23.192.228.80
+  23.192.228.84
+  23.215.0.136
+  23.215.0.138
+  96.7.128.175
+Ping to 8.8.8.8 successful. Output:
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=8ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=10ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=14ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=14ms TTL=117
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 8ms, Maximum = 14ms, Average = 11ms
+
+2025-02-06T07:01:42 - INFO - Report generation success:
+	CSV: ghostshell\reporting\osilayers_report_20250206_070142.csv
+	PDF: ghostshell\reporting\osilayers_report_20250206_070142.pdf
+2025-02-06T07:01:42 - INFO - All tests complete. Exiting.

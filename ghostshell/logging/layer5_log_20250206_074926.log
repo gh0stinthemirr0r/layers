@@ -1,0 +1,11 @@
+2025-02-06T07:49:26 - INFO - Logger initialized with file: ghostshell\logging\layer5_log_20250206_074926.log
+2025-02-06T07:49:26 - INFO - Starting Layer 5 (Session) tests
+2025-02-06T07:49:26 - INFO - Session data sent
+2025-02-06T07:49:26 - INFO - Session data sent
+2025-02-06T07:49:26 - INFO - Session success
+2025-02-06T07:49:27 - INFO - Session success
+2025-02-06T07:49:27 - INFO - Layer 5 concurrency checks complete
+2025-02-06T07:49:27 - INFO - Reports generated successfully:
+	CSV: ghostshell\reporting\layer5_report_20250206_074927.csv
+	PDF: ghostshell\reporting\layer5_report_20250206_074927.pdf
+2025-02-06T07:49:27 - INFO - Session layer tests complete. Exiting.

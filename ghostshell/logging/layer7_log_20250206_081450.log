@@ -1,0 +1,9 @@
+2025-02-06T08:14:50 - INFO - Logger initialized with file: ghostshell\logging\layer7_log_20250206_081450.log
+2025-02-06T08:14:50 - INFO - Starting Layer 7 (Application) tests
+2025-02-06T08:14:50 - INFO - Layer 7 check success
+2025-02-06T08:14:50 - INFO - Layer 7 check success
+2025-02-06T08:14:51 - INFO - Layer 7 tests complete
+2025-02-06T08:14:51 - INFO - Reports generated successfully:
+	CSV: ghostshell\reporting\layer7_report_20250206_081451.csv
+	PDF: ghostshell\reporting\layer7_report_20250206_081451.pdf
+2025-02-06T08:14:51 - INFO - All tests complete. Exiting.

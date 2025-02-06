@@ -1,0 +1,9 @@
+2025-02-06T06:25:19 - INFO - Logger initialized with file: ghostshell\logging\osilayers_log_20250206_062519.log
+2025-02-06T06:25:19 - INFO - Starting Layer 7 (Application Layer) tests
+2025-02-06T06:25:19 - INFO - Layer7 check success
+2025-02-06T06:25:19 - INFO - Layer7 check success
+2025-02-06T06:25:19 - INFO - Layer 7 concurrency checks complete
+2025-02-06T06:25:19 - INFO - Report generation success:
+	CSV: ghostshell\reporting\layer7_report_20250206_062519.csv
+	PDF: ghostshell\reporting\layer7_report_20250206_062519.pdf
+2025-02-06T06:25:19 - INFO - All done. Exiting.

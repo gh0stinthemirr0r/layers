@@ -1,0 +1,12 @@
+# requirements.txt
+
+# For generating PDF reports
+fpdf==1.7.2
+
+# For making HTTP requests easily
+requests==2.28.1
+
+# For retrieving system and network interface information
+psutil==5.9.5
+
+colorama

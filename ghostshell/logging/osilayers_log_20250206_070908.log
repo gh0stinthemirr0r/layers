@@ -1,0 +1,27 @@
+2025-02-06T07:09:08 - INFO - Logger initialized with file: ghostshell\logging\osilayers_log_20250206_070908.log
+2025-02-06T07:09:08 - INFO - Starting Layer 3 (Network) tests for hostname 'example.com' and ping IP '8.8.8.8'
+2025-02-06T07:09:12 - INFO - Layer 3 test successful. Details:
+Hostname 'example.com' resolved to IP(s):
+  96.7.128.175
+  96.7.128.198
+  23.192.228.80
+  23.192.228.84
+  23.215.0.136
+  23.215.0.138
+Ping to 8.8.8.8 successful. Output:
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=10ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=9ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=9ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=11ms TTL=117
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 9ms, Maximum = 11ms, Average = 9ms
+
+2025-02-06T07:09:12 - INFO - Reports generated successfully:
+	CSV: ghostshell\reporting\osilayers_report_20250206_070912.csv
+	PDF: ghostshell\reporting\osilayers_report_20250206_070912.pdf
+2025-02-06T07:09:12 - INFO - All tests complete. Exiting.

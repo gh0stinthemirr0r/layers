@@ -1,0 +1,19 @@
+2025-02-06T06:43:23 - INFO - Logger initialized with file: ghostshell\logging\osilayers_log_20250206_064323.log
+2025-02-06T06:43:23 - INFO - Starting Layer 1 (Physical Layer) tests...
+2025-02-06T06:43:23 - INFO - Layer 1 test successful. Physical checks: 3 attempts, min signal: 85%
+2025-02-06T06:43:23 - INFO - Starting Layer 2 (Data Link) tests...
+2025-02-06T06:43:23 - INFO - Layer 2 Test successful. Details:
+[36mInterface: Ethernet | MAC: D8-43-AE-3C-CE-A6 | IPs: D8-43-AE-3C-CE-A6, 169.254.3.191[0m
+[35mInterface: Wi-Fi 3 | MAC: A2-02-A5-6B-A8-0A | IPs: A2-02-A5-6B-A8-0A, 169.254.112.252[0m
+[33mInterface: Wi-Fi 4 | MAC: A0-02-A5-6B-A8-0B | IPs: A0-02-A5-6B-A8-0B, 169.254.78.105[0m
+[34mInterface: VMware Network Adapter VMnet1 | MAC: 00-50-56-C0-00-01 | IPs: 00-50-56-C0-00-01, 192.168.26.1[0m
+[37mInterface: VMware Network Adapter VMnet8 | MAC: 00-50-56-C0-00-08 | IPs: 00-50-56-C0-00-08, 192.168.198.1[0m
+[36mInterface: Wi-Fi | MAC: A0-02-A5-6B-A8-0A | IPs: A0-02-A5-6B-A8-0A, 10.10.1.104[0m
+[35mInterface: Bluetooth Network Connection | MAC: A0-02-A5-6B-A8-0E | IPs: A0-02-A5-6B-A8-0E, 169.254.168.237[0m
+[33mInterface: ProtonVPN | MAC:  | IPs: 10.2.0.2[0m
+[34mInterface: Loopback Pseudo-Interface 1 | MAC:  | IPs: 127.0.0.1, ::1[0m
+2025-02-06T06:43:23 - INFO - Reports generated successfully:
+	CSV: ghostshell\reporting\osilayers_report_20250206_064323.csv
+	PDF: ghostshell\reporting\osilayers_report_20250206_064323.pdf
+2025-02-06T06:43:23 - INFO - All tests completed.
+2025-02-06T06:43:23 - INFO - Full output report written to: ghostshell\reporting\full_output_20250206_064323.txt

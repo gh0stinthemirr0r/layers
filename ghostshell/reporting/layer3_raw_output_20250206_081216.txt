@@ -1,0 +1,50 @@
+======================================================================
+                    Layers - OSI Testing Report: Layer 3
+======================================================================
+Timestamp: 2025-02-06T08:12:16.527289
+
+Layer   Status      Message                                           
+----------------------------------------------------------------------
+3       Passed      Hostname 'google.com' resolved to IP(s):          
+                    142.250.68.110 Ping to 1.1.1.1 successful. Output:
+                    Pinging 1.1.1.1 with 32 bytes of data: Reply from 
+                    1.1.1.1: bytes=32 time=10ms TTL=58 Reply from     
+                    1.1.1.1: bytes=32 time=10ms TTL=58 Reply from     
+                    1.1.1.1: bytes=32 time=10ms TTL=58 Reply from     
+                    1.1.1.1: bytes=32 time=10ms TTL=58  Ping          
+                    statistics for 1.1.1.1:     Packets: Sent = 4,    
+                    Received = 4, Lost = 0 (0% loss), Approximate     
+                    round trip times in milli-seconds:     Minimum =  
+                    10ms, Maximum = 10ms, Average = 10ms              
+
+
+======================================================================
+LOG OUTPUT
+======================================================================
+Timestamp           Level     Message                                 
+----------------------------------------------------------------------
+2025-02-06T08:12:13 INFO      Logger initialized with file: ghostshell
+                              \logging\layer3_log_20250206_081213.log 
+2025-02-06T08:12:13 INFO      Starting Layer 3 (Network) tests for    
+                              hostname 'google.com' and ping IP       
+                              '1.1.1.1'                               
+2025-02-06T08:12:16 INFO      Layer 3 test successful. Details:       
+Hostname 'google.com' resolved to IP(s):
+  142.250.68.110
+Ping to 1.1.1.1 successful. Output:
+
+Pinging 1.1.1.1 with 32 bytes of data:
+Reply from 1.1.1.1: bytes=32 time=10ms TTL=58
+Reply from 1.1.1.1: bytes=32 time=10ms TTL=58
+Reply from 1.1.1.1: bytes=32 time=10ms TTL=58
+Reply from 1.1.1.1: bytes=32 time=10ms TTL=58
+
+Ping statistics for 1.1.1.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 10ms, Maximum = 10ms, Average = 10ms
+
+2025-02-06T08:12:16 INFO      Reports generated successfully:         
+	CSV: ghostshell\reporting\layer3_report_20250206_081216.csv
+	PDF: ghostshell\reporting\layer3_report_20250206_081216.pdf
+2025-02-06T08:12:16 INFO      All tests complete. Exiting.            

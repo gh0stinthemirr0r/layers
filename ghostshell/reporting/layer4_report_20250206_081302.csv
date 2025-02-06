@@ -1,0 +1,10 @@
+Layer,Status,Message
+4,[33mPartial Passed[0m,"Layer 4 test partial pass. TCP Checks passed, but all UDP checks failed.
+TCP Checks:
+  - 1.1.1.1:53: OK
+  - 8.8.8.8:53: OK
+
+UDP Checks:
+  - 8.8.8.8:53: FAIL (timed out)
+  - 1.1.1.1:53: FAIL (timed out)
+"

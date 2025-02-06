@@ -1,0 +1,10 @@
+2025-02-06T06:24:25 - INFO - Logger initialized with file: ghostshell\logging\osilayers_log_20250206_062425.log
+2025-02-06T06:24:25 - INFO - Starting Layer 4 (Transport) tests
+2025-02-06T06:24:25 - INFO - TCP connection successful
+2025-02-06T06:24:25 - INFO - TCP connection successful
+2025-02-06T06:24:25 - INFO - TCP connection successful
+2025-02-06T06:24:30 - ERROR - UDP check failed
+2025-02-06T06:24:30 - INFO - Report generation success:
+	CSV: ghostshell\reporting\osilayers_report_20250206_062430.csv
+	PDF: ghostshell\reporting\osilayers_report_20250206_062430.pdf
+2025-02-06T06:24:30 - INFO - All tests complete. Exiting.

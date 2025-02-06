@@ -1,0 +1,9 @@
+2025-02-06T07:49:44 - INFO - Logger initialized with file: ghostshell\logging\layer6_log_20250206_074944.log
+2025-02-06T07:49:44 - INFO - Starting Layer 6 (Presentation) tests
+2025-02-06T07:49:44 - INFO - Layer6 encode/decode success
+2025-02-06T07:49:44 - INFO - Layer6 encode/decode success
+2025-02-06T07:49:44 - INFO - Layer 6 concurrency checks complete
+2025-02-06T07:49:44 - INFO - Report generation success:
+	CSV: ghostshell\reporting\osilayers_report_20250206_074944.csv
+	PDF: ghostshell\reporting\osilayers_report_20250206_074944.pdf
+2025-02-06T07:49:44 - INFO - Presentation layer tests complete. Exiting.

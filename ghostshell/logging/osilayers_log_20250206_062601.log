@@ -1,0 +1,42 @@
+2025-02-06T06:26:01 - INFO - Logger initialized with file: ghostshell\logging\osilayers_log_20250206_062601.log
+2025-02-06T06:26:01 - INFO - Layer1: Starting physical layer checks (attempt_count=3)
+2025-02-06T06:26:01 - INFO - Layer1 all concurrency checks pass; signal=85%
+2025-02-06T06:26:01 - INFO - Layer2: Starting data link checks
+2025-02-06T06:26:01 - ERROR - Layer2: one or more interfaces invalid or down
+Interface: Ethernet, MAC: D8-43-AE-3C-CE-A6 => DOWN
+Interface: Wi-Fi 3, MAC: A2-02-A5-6B-A8-0A => DOWN
+Interface: Wi-Fi 4, MAC: A0-02-A5-6B-A8-0B => DOWN
+Interface: VMware Network Adapter VMnet1, MAC: 00-50-56-C0-00-01 => OK
+Interface: VMware Network Adapter VMnet8, MAC: 00-50-56-C0-00-08 => OK
+Interface: Wi-Fi, MAC: A0-02-A5-6B-A8-0A => OK
+Interface: Bluetooth Network Connection, MAC: A0-02-A5-6B-A8-0E => DOWN
+Interface: ProtonVPN, MAC:  => INVALID_MAC
+Interface: Loopback Pseudo-Interface 1, MAC:  => INVALID_MAC
+
+2025-02-06T06:26:01 - WARNING - Some sub-tests in a layer encountered errors
+Exception: one or more interfaces invalid or down
+2025-02-06T06:26:01 - INFO - Layer3: Starting network checks
+2025-02-06T06:26:01 - INFO - DNS for example.com resolved to: 96.7.128.175 96.7.128.198 23.192.228.80 23.192.228.84 23.215.0.136 23.215.0.138
+2025-02-06T06:26:04 - INFO - Ping to 8.8.8.8 succeeded:
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=10ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=12ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=10ms TTL=117
+Reply from 8.8.8.8: bytes=32 time=10ms TTL=117
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 10ms, Maximum = 12ms, Average = 10ms
+
+2025-02-06T06:26:04 - INFO - Layer4: Starting transport checks
+2025-02-06T06:26:04 - INFO - TCP 1.1.1.1:53 => OK
+2025-02-06T06:26:04 - INFO - TCP 8.8.8.8:53 => OK
+2025-02-06T06:26:09 - ERROR - UDP 8.8.8.8:53 => timed out
+2025-02-06T06:26:09 - WARNING - Some sub-tests in a layer encountered errors
+Exception: transport layer partial fail
+2025-02-06T06:26:09 - INFO - Layer5: Starting session checks
+2025-02-06T06:26:10 - INFO - Layer6: Starting presentation checks
+2025-02-06T06:26:10 - INFO - Layer7: Starting application checks
+2025-02-06T06:26:10 - INFO - All tests complete. Exiting.

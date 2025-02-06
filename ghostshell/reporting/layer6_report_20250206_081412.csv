@@ -1,0 +1,3 @@
+Layer,Status,Message
+6,[32mPassed[0m,"Dataset 0: successfully encoded & decoded. original={'message': 'Hello OSI L6 - Test 1', 'status': 'ok'}"
+6,[32mPassed[0m,"Dataset 1: successfully encoded & decoded. original={'message': 'Hello OSI L6 - Test 2', 'status': 'ok2'}"

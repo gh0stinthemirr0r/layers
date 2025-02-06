@@ -1,0 +1,11 @@
+2025-02-06T08:12:52 - INFO - Logger initialized with file: ghostshell\logging\layer4_log_20250206_081252.log
+2025-02-06T08:12:52 - INFO - Starting Layer 4 (Transport) tests
+2025-02-06T08:12:52 - INFO - TCP connection successful
+2025-02-06T08:12:52 - INFO - TCP connection successful
+2025-02-06T08:12:57 - ERROR - UDP connection failed
+2025-02-06T08:13:02 - ERROR - UDP connection failed
+2025-02-06T08:13:02 - WARNING - Layer 4 test partial pass. UDP checks failed.
+2025-02-06T08:13:02 - INFO - Reports generated successfully:
+	CSV: ghostshell\reporting\layer4_report_20250206_081302.csv
+	PDF: ghostshell\reporting\layer4_report_20250206_081302.pdf
+2025-02-06T08:13:02 - INFO - All tests complete. Exiting.

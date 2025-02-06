@@ -1,0 +1,23 @@
+2025-02-06T07:24:50 - INFO - Logger initialized with file: ghostshell\logging\layer3_log_20250206_072450.log
+2025-02-06T07:24:50 - INFO - Starting Layer 3 (Network) tests for hostname 'google.com' and ping IP '1.1.1.1'
+2025-02-06T07:24:53 - INFO - Layer 3 test successful. Details:
+Hostname 'google.com' resolved to IP(s):
+  142.250.72.142
+Ping to 1.1.1.1 successful. Output:
+
+Pinging 1.1.1.1 with 32 bytes of data:
+Reply from 1.1.1.1: bytes=32 time=11ms TTL=58
+Reply from 1.1.1.1: bytes=32 time=53ms TTL=58
+Reply from 1.1.1.1: bytes=32 time=12ms TTL=58
+Reply from 1.1.1.1: bytes=32 time=10ms TTL=58
+
+Ping statistics for 1.1.1.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 10ms, Maximum = 53ms, Average = 21ms
+
+2025-02-06T07:24:53 - INFO - Reports generated successfully:
+	CSV: ghostshell\reporting\layer3_report_20250206_072453.csv
+	PDF: ghostshell\reporting\layer3_report_20250206_072453.pdf
+2025-02-06T07:24:53 - INFO - All tests complete. Exiting.
+2025-02-06T07:24:53 - INFO - Full output report written to: ghostshell\reporting\layer3_raw_output_20250206_072453.txt

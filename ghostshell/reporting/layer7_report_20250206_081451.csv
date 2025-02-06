@@ -1,0 +1,3 @@
+Layer,Status,Message
+7,[32mPassed[0m,HTTP GET https://jsonplaceholder.typicode.com/posts/1 returned 200 OK
+7,[32mPassed[0m,HTTP GET https://jsonplaceholder.typicode.com/posts/2 returned 200 OK
