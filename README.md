@@ -35,3 +35,13 @@ A comprehensive Python project that simulates testing across the OSI model layer
 
 1. **Clone the Repository, execute each file individually or simply run the comprehensive scan. Thats it!**
 
+## Example Outputs
+
+![Layer 1](https://github.com/gh0stinthemirr0r/layers/blob/main/screenshots/layer1.png)
+![Layer 2](https://github.com/gh0stinthemirr0r/layers/blob/main/screenshots/layer2.png)
+![Layer 3](https://github.com/gh0stinthemirr0r/layers/blob/main/screenshots/layer3.png)
+![Layer 4](https://github.com/gh0stinthemirr0r/layers/blob/main/screenshots/layer4.png)
+![Layer 5](https://github.com/gh0stinthemirr0r/layers/blob/main/screenshots/layer5.png)
+![Layer 6](https://github.com/gh0stinthemirr0r/layers/blob/main/screenshots/layer6.png)
+![Layer 7](https://github.com/gh0stinthemirr0r/layers/blob/main/screenshots/layer7.png)
+
